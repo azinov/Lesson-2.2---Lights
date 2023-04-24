@@ -16,10 +16,10 @@ class ViewController: UIViewController {
    
     let lightAlpha = 0.3
     var buttonPressCount = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let viewWidth = self.view.frame.width
         let lightWidth = viewWidth / 3
         let lightCornerRadius = lightWidth / 2
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         mainButton.layer.position.y = self.view.frame.height * 0.9
         mainButton.layer.frame.size = CGSize(width: viewWidth / 3, height: 32)
         mainButton.layer.cornerRadius = viewWidth / 50
-
+        
         setLightProperties(view: redLight, position: 0)
         setLightProperties(view: yellowLight, position: 1)
         setLightProperties(view: greenLight, position: 2)
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
             mainButton.setTitle("Next", for: .normal)
             redLight.alpha = 1.0
         }
-
+        
         let lightsView: [UIView] = [redLight, yellowLight, greenLight]
        
         buttonPressCount = buttonPressCount < lightsView.count ? buttonPressCount : 0
