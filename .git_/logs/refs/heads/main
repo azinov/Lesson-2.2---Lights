@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 861d478e790ad30c0395777a23f8ef8006526dda Alexey Zinovyev <zinovkin@gmail.com> 1682179277 +0300	commit (initial): Initial Commit
+861d478e790ad30c0395777a23f8ef8006526dda 079c9722b87a4b492bf3f8c1cdb3d3525c169c0a Alexey Zinovyev <zinovkin@gmail.com> 1682205934 +0300	commit: Сделана логика через if else
+079c9722b87a4b492bf3f8c1cdb3d3525c169c0a 15ae2d1fb8cd64105e2ea9c4c3ae5fdda0711b5c Alexey Zinovyev <zinovkin@gmail.com> 1682211141 +0300	commit: Сделал логику без if else
